@@ -433,6 +433,9 @@ header {
     margin: 2em 1em; } }
 
 @media only screen and (max-width: 412px) {
+  .h2cuartos {
+    font-size: 28px !important;
+    margin: 7px 0px; }
   h2 {
     margin: 0px 10px; }
   #testimoniosFlex {
@@ -513,6 +516,9 @@ header {
     margin: 2em 1em; } }
 
 @media only screen and (max-width: 360px) {
+  .h2cuartos {
+    font-size: 27px !important;
+    margin: 7px 0px; }
   .navbar-nav {
     padding: 0% 13%; }
   .tituloServicios {
