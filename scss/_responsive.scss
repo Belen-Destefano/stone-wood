@@ -213,6 +213,20 @@
 
 @media only screen and (max-width: 412px){
 
+    h2{
+        margin: 0px 10px;
+    }
+
+    #testimoniosFlex {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .imgGal {
+        width: 11em;
+        margin: 7px;
+    }
+
     .navbar-nav {
         
         padding-left: 15% !important;
@@ -259,7 +273,11 @@
     position: absolute;
     top: 2em;
     }    
-    
+    .p {
+        text-align: justify;
+        padding: 0px;
+        font-size: 15px;
+    }
     p { 
     text-align: justify;
     padding: 21px;
@@ -273,14 +291,6 @@
     padding: 0px 67px !important;       
     }
 
-
-    .imgGal {
-    width: 23em;      
-    margin: 23px;}
-
-    /* #contenedorReserva {
-    display: flex; flex-direction: column;        
-    } */
 
     #rooms{       
     width: 77%;                  
@@ -331,17 +341,10 @@
         padding: 9% 1%;
     }
 
-    /* .logoFooter {
-        padding: 11px 10em;
-    } */
-
-    #testimoniosFlex{
-     flex-direction: column; 
-    }
-
+  
     #cardsTestimonios {
-        width: 22rem;
-        margin: 27px;
+        width: 11rem;
+        margin: 4px;
     }
 
     .footerText{         
