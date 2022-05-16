@@ -91,7 +91,7 @@ function cargarDatos() {
 	// pongo objeto Location para redireccionar a la pag de reservas.html al apretar el boton buscar. antes la habia linkeado simplemente desde el boton, pero asi es mejor para evitar problemas.
 	// window.location = "../pages/reserva.html";
 
-	window.location = "stone-wood/pages/reserva.html";
+	window.location = "https://belen-destefano.github.io/stone-wood/pages/reserva.html";
 
 }
 
