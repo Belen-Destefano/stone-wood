@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedaje Traslasierra</title>
+
+    <!--ESTILO DE CSS-->
+    <link rel="stylesheet" href="css/pruebacss.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700;1,800&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <!-- ANIMATE.CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   
+
+    
+   
+  
+  
+</head>
+
+<body >
+  <!--MENU Y ENCABEZADO-->
+    <header class="bgImage">
+      <section>
+        <nav class="navbar navbar-expand-lg navbar-light menuEstilo" >
+    
+          
+          <div class="container-fluid" >
+                          
+            <a class="navbar-brand" href="index.html"><img class="logo"  src="image/logo.png" alt=""></a>
+
+            <button style="margin:20px 0px;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+  
+           
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-6 " href="#ubicacion">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-6 " href="#galeria">Imagenes</a>
+                </li>                
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-6" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>  
+        
+      </section>      
+      
+      <h1 id="buscarFecha" class="tituloH1 animate__animated animate__bounce ">Stone & Wood House </h1>
+      
+    </header>
+    <!--MAIN DE LA CASA-->
+    <main class="marginDiv">     
+      
+      
+
+      <!--FORMULARIO -->
+      <section class="search-form " id="reserva">
+        <div class="container bg-form col-xl-12 col-sm-12"> 
+            <form class="row d-flex justify-content-center align-content-center">         
+                <div class=" col-xl-4 col-sm-6">                                
+                    <label for="ingreso">Check-in</label>
+                    <input class="form-control form-control-sm" type="date" name="check-in" id="check-in" required>   
+                </div>                        
+                <div id="espacio" class=" col-xl-4 col-sm-6">                                
+                    <label for="salida">Check-out</label>
+                    <input class="form-control form-control-sm" type="date" name="check-out" id="check-out" required> 
+                </div>
+                 <div class="form-row form-group flex-column align-items-center align-self-center col-xl-2 col-sm-6">                                
+                    <label for="guests">Huespedes</label>
+                    <select name="guests" id="huespedes" class="form-control-sm" required=""><option></option><option>1</option><option>2</option><option>3</option><option>4</option></select>
+                </div>
+
+                <div class="align-self-center col-xl-1 col-sm-6">
+                    <a href="#"><button id="boton" type="button" class="btn btn-success btn-sm" >BUSCAR</button></a>
+                </div>
+
+                
+            </form>
+        </div>
+ 
+      </section>
+  
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+              <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, beatae natus! Odio, sequi. Atque minus laborum at aliquam similique nostrum necessitatibus, aperiam error reiciendis, voluptatum reprehenderit eum veritatis dignissimos excepturi.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, beatae natus! Odio, sequi. Atque minus laborum at aliquam similique nostrum necessitatibus, aperiam error reiciendis, voluptatum reprehenderit eum veritatis dignissimos excepturi.</p>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="row">
+
+              <div class="col-6 paddingCero">
+                <img class="imgSize" src="image/imagen1.jpg" alt="">
+                <img class="imgSize" src="image/imagen2.jpg" alt="">
+              </div>
+
+              <div class="col-6 paddingCero">
+                <img class="imgSize" src="image/imagen3.jpg" alt="">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!--UBICACION-->
+    <div class="container imgMargin" id= ubicacion>      
+      <div class="row ">
+
+        <div class="col-12 col-lg-6">
+          <div class="row">
+
+            <div class="col-6 paddingCero">
+              <img class="imgSize" src="image/imagen1b.jpg" alt="">
+              <img class="imgSize" src="image/imagen2b.jpg" alt="">
+            </div>
+
+            <div class="col-6 paddingCero">
+              <img class="imgSize" src="image/imagen3b.jpg" alt="">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 marginDiv">
+          <h2 class="wow fadeInLeft" >Ubicación</h2>
+          <a href="https://www.google.es/maps/place/La+Casa+De+Nora/@-31.7302472,-65.0247378,17z/data=!3m1!4b1!4m5!3m4!1s0x942d2668450e6be1:0x450441db421461b3!8m2!3d-31.7302472!4d-65.0225491" target="_blank"><p class="textLink">Ver Mapa</p></a>
+          
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, beatae natus! Odio, sequi. Atque minus laborum at aliquam similique nostrum necessitatibus, aperiam error reiciendis, voluptatum reprehenderit eum veritatis dignissimos excepturi.</p>
+        </div>
+
+      </div>
+    </div>
+   
+  <!--SERVICIOS-->
+  
+
+  <section >
+    <section  id="servicios" >
+      <div class="container">
+        <div class="col-lg-12">
+          <h2 class="animate__animated animate__backInLeft animate__slow " style="margin: 38px 0px;">Servicios</h2>
+        </div>
+      </div>
+
+      <div class="container " >
+        <div class="row ">
+          <div class="col-lg-4 col-md-4 ">
+            <div class="container">
+              <img class="imgServicios" src="image/service-1.svg" alt="">
+              <h4 class="tituloServicios">Internet</h4>
+              <p class="textServicios">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores id reiciendis alias, suscipit magnam quidem saepe voluptate debitis nostrum inventore obcaecati ullam accusamus nemo! Quis enim minus odit </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 ">
+            <div class="container">
+              <img class="imgServicios" src="image/service-2.svg" alt="">
+              <h4 class="tituloServicios">Pileta</h4>
+              <p class="textServicios">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores id reiciendis alias, suscipit magnam quidem saepe voluptate debitis nostrum inventore obcaecati ullam accusamus nemo! Quis enim minus odit </p>
+            </div>
+          </div>
+          <div  class="col-lg-4 col-md-4 ">
+            <div class="container">
+              <img class="imgServicios" src="image/service-3.svg" alt="">
+              <h4 class="tituloServicios">Desayuno</h4>
+              <p class="textServicios">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores id reiciendis alias, suscipit magnam quidem saepe voluptate debitis nostrum inventore obcaecati ullam accusamus nemo! Quis enim minus odit</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 ">
+            <div class="container">
+              <img class="imgServicios" src="image/service-4.svg" alt="">
+              <h4 class="tituloServicios">Bebidas Bar</h4>
+              <p class="textServicios">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores id reiciendis alias, suscipit magnam quidem saepe voluptate debitis nostrum inventore obcaecati ullam accusamus nemo! Quis enim minus odit</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 ">
+            <div class="container">
+              <img class="imgServicios" src="image/service-5.svg" alt="">
+              <h4 class="tituloServicios">Tele</h4>
+              <p class="textServicios">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores id reiciendis alias, suscipit magnam quidem saepe voluptate debitis nostrum inventore obcaecati ullam accusamus nemo! Quis enim minus odit</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 ">
+            <div class="container">
+              <img class="imgServicios" src="image/service-6.svg" alt="">
+              <h4 class="tituloServicios">Comida</h4>
+              <p class="textServicios">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores id reiciendis alias, suscipit magnam quidem saepe voluptate debitis nostrum inventore obcaecati ullam accusamus nemo! Quis enim minus odit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  
+
+  <!--GALERIA DE IMG-->
+  
+     
+        <div id="galeria" class="container" >          
+          <h2 class="animate__animated animate__backInLeft animate__slow"> <br> Galeria de Imagenes</h2>
+          <a href="#buscarFecha"> <p class="textLink"> Buscar fechas </p> </a>
+          
+          <div style="display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;" class="paddingCero">
+           
+            <img class="imgGal"  src="image/casa1.jpg" alt="">
+            <img class="imgGal"  src="image/casa2.jpg" alt="">
+            <img class="imgGal"  src="image/casa3.jpg" alt="">
+            <img class="imgGal"  src="image/casa4.jpg" alt="">
+            
+          </div>
+        </div>        
+     
+  <br>
+  <br>
+
+  <section class="container" id="testimonios">
+    <h2 class="animate__animated animate__backInLeft animate__slow animate__delay-1s">Testimonios</h2>
+
+    <div id="testimoniosFlex">
+    
+      <div class="card" id="cardsTestimonios">
+        <img src="image/testionio1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p style="padding-right: 0px;" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <img src="image/estrellas.jpg" alt="">
+          <h5 class="card-title">Mery Deswich</h5>
+          
+        </div>        
+      </div>
+      <div class="card" id="cardsTestimonios">
+        <img src="image/testionio2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p style="padding-right: 0px;" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <img src="image/estrellas.jpg" alt="">
+          <h5 class="card-title">Belu Klon</h5>
+        </div>
+      </div>
+      <div class="card" id="cardsTestimonios">
+        <img src="image/testionio3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p style="padding-right: 0px;" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <img src="image/estrellas.jpg" alt="">
+          <h5 class="card-title">Eline Ginovili</h5>
+        </div>
+      </div>
+      <div class="card" id="cardsTestimonios">
+        <img src="image/testionio4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p style="padding-right: 0px;" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <img src="image/estrellas.jpg" alt="">
+          <h5 class="card-title">Luli Blonda</h5>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  
+  
+  <section class="bgContacto">
+
+    <div id="contacto">
+      
+      <h2 class="textContact"> Contactanos para saber las ultimas novedades y fechas para reservas disponibles</h2>
+
+      <a href=""><img id="iconWats" src="image/wats2.png" alt=""></a>
+      
+    </div>
+
+   
+    <!--FOOTER-->
+    <footer class="bgFooter" >
+      <div class="containerFooter" >
+        <a href="#"><img class="logoFooter" src="image/logo.png" alt=""></a>      
+        <p class="footerText">Copyright 2021 -Todos los derechos reservados</p>
+      </div>
+
+    </footer>
+  </section>
+
+  
+  
+
+
+
+ <!-- /////////////////////////////////// -->
+
+  <!-- WOW.JS -->
+  <script src="https://wowjs.uk/dist/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+
+
+
+ <!--SWEETALERT y JQUERY-->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>   
+
+
+
+  <!--BOOTSTRAP JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script> 
+
+  <!-- ARCHIVO JS -->
+  <script src="./js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</body>
+</html>

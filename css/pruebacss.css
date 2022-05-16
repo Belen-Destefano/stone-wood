@@ -1,0 +1,549 @@
+/* menu */
+.menuEstilo {
+  background-color: #484616cf; }
+
+.text-light:hover {
+  /* color: #f2dfa5 !important; */
+  color: #fcd8ad !important;
+  /* transform: scale(1.1); */ }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(252, 244, 244, 0.9); }
+
+/*Generales*/
+body {
+  background-color: #e6e3e3 !important;
+  scroll-behavior: smooth; }
+
+.tituloH1 {
+  padding-top: 10%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  font-family: 'Roboto';
+  font-style: initial;
+  color: white;
+  text-shadow: -4px -1px 4px #000000; }
+
+.textContact {
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: 'Roboto';
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  color: white; }
+
+h2 {
+  font-size: 44px !important;
+  font-weight: 300 !important;
+  font-family: 'Roboto';
+  color: #2e4105; }
+
+h3 {
+  font-weight: 400 !important; }
+
+h4 {
+  font-weight: 400 !important;
+  color: #2e4105; }
+
+h6 {
+  margin-bottom: 1.5rem !important; }
+
+p {
+  text-align: justify;
+  padding: 26px;
+  font-size: 18px; }
+
+.btn-room {
+  color: #2e4105 !important;
+  border: 1px solid #2e4105;
+  padding: 7px;
+  border-radius: 4px; }
+
+.btn-room:hover {
+  background-color: #4a4a24;
+  color: white !important; }
+
+.bgImage {
+  background-image: url(../image/fondoOscuro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33em;
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425); }
+
+.bgImageReserva {
+  background-image: url(../image/backgroundFixedB.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33em;
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425); }
+
+.bgContacto {
+  background-image: url(../image/backgroundFixedB.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33em;
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425); }
+
+.bgColor {
+  background-color: #3a390dd9; }
+
+.imgSize {
+  width: 15em;
+  margin-bottom: 6px;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.425); }
+
+.paddingCero {
+  padding-right: 0px  !important;
+  padding-left: 0px  !important; }
+
+.marginDiv {
+  margin-top: 50px !important; }
+
+a {
+  text-decoration: none !important;
+  color: #e77e01 !important; }
+
+#backgroundFixed {
+  background-attachment: fixed;
+  background-image: url(../image/backgroundFixedA.jpg);
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.textContact {
+  color: white;
+  text-shadow: 2px 1px 2px #212529;
+  margin-top: 19px 0px;
+  font-size: 40px !important; }
+
+fieldset {
+  min-width: 0 !important;
+  padding: 0px 74px !important;
+  margin: 30px 0px !important;
+  border: 12 !important;
+  background-color: #0000005e; }
+
+input {
+  width: 150px; }
+
+.imgGal {
+  width: 17em;
+  margin: 3px;
+  box-shadow: 4px 4px 7px rgba(7, 7, 7, 0.49); }
+
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; }
+
+.footerText {
+  margin: 0px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px; }
+
+.textLink {
+  padding: 3px 10px;
+  width: 8em;
+  transition: all 0.7s; }
+
+.textLink:hover {
+  transform: scale(1.1); }
+
+.bgFooter {
+  height: 132px;
+  background: #3a390d;
+  background: linear-gradient(131deg, rgba(58, 57, 13, 0.787553) 0%, #3e3d10 58%, rgba(106, 104, 37, 0.619485) 100%); }
+
+#btnContinuarReserva {
+  color: #2e4105 !important;
+  border: 1px solid #2e4105;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: white; }
+
+#btnContinuarReserva:hover {
+  background-color: #4a4a24;
+  color: white !important; }
+
+.btn {
+  margin: 2px 25px; }
+
+.lista-card {
+  width: 16em;
+  display: inline-block; }
+
+/* esto por que en la card de reservas, los datos de la habitacion quedaban feos */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding-left: 0 !important; }
+
+#contenedorReserva {
+  display: flex;
+  flex-direction: row; }
+
+#rooms {
+  margin-left: 2em;
+  width: 70%; }
+
+.imgRoom {
+  width: 100%; }
+
+#rooms div {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 2em; }
+
+#rooms div div {
+  display: block;
+  margin: 2em 1em;
+  width: 43%; }
+
+#cards {
+  width: 30%;
+  margin: 4em 2em; }
+
+.col-xl-1 {
+  flex: 0 0 auto;
+  width: 16.333333% !important; }
+
+#reserva {
+  padding: 2em !important;
+  position: absolute;
+  bottom: 5em;
+  left: 20em;
+  box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.43);
+  background-color: #d7d4d4; }
+
+header {
+  position: relative; }
+
+#formularioReserva {
+  display: none;
+  background-color: white;
+  margin-bottom: 42px;
+  border-radius: 10px;
+  box-shadow: 0px 7px 9px rgba(10, 10, 10, 0.43); }
+
+.animacion {
+  animation-name: cardAnimacion;
+  animation-iteration-count: 2;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-delay: 2s; }
+
+/*ANIMACION DE H2*/
+@keyframes cardAnimacion {
+  0% {
+    border-color: #e77e01; }
+  20% {
+    border-color: #e77e01; }
+  40% {
+    border-color: whitesmoke; }
+  60% {
+    border-color: #e77e01; }
+  80% {
+    border-color: #e77e01; }
+  100% {
+    border-color: whitesmoke; } }
+
+#servicios {
+  display: none; }
+
+#testimonios {
+  display: none;
+  margin-bottom: 72px; }
+
+#contacto {
+  width: 54%;
+  margin: 0% 17%;
+  padding: 7% 1%; }
+
+#iconWats {
+  width: 3em;
+  margin: 4px;
+  transition: all 0.7s; }
+
+#iconWats:hover {
+  transform: scale(1.2); }
+
+#testimoniosFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+#galeria {
+  display: none; }
+
+.galeriaContainer {
+  margin-top: 10px; }
+
+.logo {
+  margin: 0px 9px;
+  transition: all 0.7s;
+  cursor: pointer; }
+
+.logo:hover {
+  transform: scale(1.1); }
+
+.logoFooter {
+  transition: all 0.7s;
+  cursor: pointer; }
+
+.logoFooter:hover {
+  transform: scale(1.1); }
+
+.imgServicios {
+  width: 4em; }
+
+.textServicios {
+  padding-right: 0px;
+  padding-top: 4px; }
+
+#cardsTestimonios {
+  width: 15rem;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.23);
+  margin: 5px; }
+
+@media only screen and (max-width: 1200px) {
+  /* .logoFooter {
+        padding: 17px 35em;
+    } */
+  #contacto {
+    padding: 8% 1%; }
+  #reserva {
+    left: 16em; }
+  .imgSize {
+    margin: 0%; } }
+
+@media only screen and (max-width: 1024px) {
+  .imgGal {
+    width: 14em; }
+  #reserva {
+    position: static;
+    margin: 2%; }
+  #cardsTestimonios {
+    width: 12rem; }
+  p {
+    text-align: justify;
+    padding: 0px;
+    font-size: 17px; }
+  .bgContacto {
+    height: 31em; }
+  .imgSize {
+    width: 13em;
+    padding: 0%;
+    margin-bottom: 6px;
+    box-shadow: 1px 3px 4px rgba(10, 10, 10, 0.43);
+    margin: 0%; }
+  .imgGal {
+    width: 10em; }
+  #cardsTestimonios {
+    width: 10rem; }
+  p {
+    text-align: justify;
+    padding: 0px;
+    font-size: 16px; }
+  .bgContacto {
+    height: 30em; }
+  .textContact {
+    font-size: 36px !important; }
+  #rooms div div {
+    display: block;
+    margin: 2em 1em;
+    width: 49%; } }
+
+@media only screen and (max-width: 1000px) {
+  #rooms div {
+    display: flex;
+    flex-direction: column; }
+  #cards {
+    width: 50%; }
+  #rooms {
+    margin-left: 2em;
+    width: 80%; }
+  #rooms div div {
+    display: block;
+    margin: 2em 1em;
+    width: 100%; } }
+
+@media only screen and (max-width: 991px) {
+  .imgSize {
+    width: 22em; } }
+
+@media only screen and (max-width: 768px) {
+  #cards {
+    width: 41%;
+    margin: 4em 1em; }
+  #rooms div {
+    display: flex;
+    flex-direction: column; }
+  #rooms div div {
+    width: 100%; }
+  .textContact {
+    font-size: 33px !important; }
+  .bgContacto {
+    height: 30em; }
+  .imgSize {
+    width: 18em;
+    padding: 1%;
+    margin-bottom: 6px;
+    box-shadow: 1px 3px 4px rgba(5, 5, 5, 0.43);
+    margin: 10%; } }
+
+@media only screen and (max-width: 767px) {
+  .imgSize {
+    width: 14em; }
+  #cards {
+    width: 50%;
+    margin: 4em 0em; }
+  .lista-card {
+    width: 11em; }
+  #rooms div div {
+    width: 82%; }
+  #rooms div div {
+    margin: 0em 0em; }
+  #rooms div {
+    margin: 0em 0em; } }
+
+@media only screen and (max-width: 480px) {
+  #contenedorReserva {
+    display: flex;
+    flex-direction: column; }
+  .imgSize {
+    width: 12em;
+    padding: 1%;
+    margin-bottom: 6px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.43);
+    margin: 9%; }
+  .textContact {
+    font-size: 28px !important; }
+  .bgContacto {
+    height: 27em; }
+  #cards {
+    width: 96%;
+    margin: 2em 1em; } }
+
+@media only screen and (max-width: 412px) {
+  .navbar-nav {
+    padding-left: 15% !important; }
+  #espacio {
+    margin-bottom: 22px; }
+  .bgContacto {
+    height: 24em; }
+  .tituloServicios {
+    margin: 5%; }
+  .imgServicios {
+    margin-left: 7%; }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 10px; }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row !important; }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 20px !important; }
+  .tituloH1 {
+    padding: 1em 0em;
+    position: absolute;
+    top: 2em; }
+  p {
+    text-align: justify;
+    padding: 21px;
+    font-size: 18px; }
+  .imgSize {
+    width: 10em; }
+  fieldset {
+    padding: 0px 67px !important; }
+  .imgGal {
+    width: 23em;
+    margin: 23px; }
+  /* #contenedorReserva {
+    display: flex; flex-direction: column;        
+    } */
+  #rooms {
+    width: 77%; }
+  #rooms div {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0em; }
+  #rooms div div {
+    display: block;
+    margin: 0em 0em;
+    width: 100%;
+    /*para cel sin margin ni width */ }
+  #cardRoom {
+    width: 100%;
+    margin: 0em 1em;
+    /* el width de 30% no va en cel */ }
+  #reserva {
+    /* left: 0em; CEL */
+    left: 0em;
+    bottom: 16em; }
+  #lista-Datos {
+    margin: 1px 15px; }
+  .bgImageReserva {
+    height: 426px; }
+  #contacto {
+    width: 96%;
+    margin: 5% 2%;
+    padding: 9% 1%; }
+  /* .logoFooter {
+        padding: 11px 10em;
+    } */
+  #testimoniosFlex {
+    flex-direction: column; }
+  #cardsTestimonios {
+    width: 22rem;
+    margin: 27px; }
+  .footerText {
+    padding-top: 7px; }
+  #cards {
+    width: 90%;
+    margin: 2em 1em; } }
+
+@media only screen and (max-width: 360px) {
+  .navbar-nav {
+    padding: 0% 13%; }
+  .tituloServicios {
+    margin: 5%; }
+  .imgServicios {
+    margin-left: 7%; }
+  #reserva {
+    /* left: 0em; CEL */
+    left: 0em;
+    bottom: 4em; }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 15px !important; }
+  .imgGal {
+    width: 20em; }
+  .imgSize {
+    width: 10em; }
+  #contacto {
+    margin: 6% 5%;
+    padding: 3% 1%; }
+  .bgContacto {
+    height: 23em; }
+  #cardsTestimonios {
+    width: 20rem; }
+  .footerText {
+    padding-top: 0px; } }
+
+@media only screen and (max-width: 320px) {
+  .imgSize {
+    width: 9em; }
+  #cardsTestimonios {
+    width: 17rem; }
+  #cards {
+    width: 100%;
+    margin: 1em 0em; } }

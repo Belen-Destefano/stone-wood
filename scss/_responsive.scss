@@ -1,0 +1,430 @@
+@media only screen and (max-width: 1200px){
+    /* .logoFooter {
+        padding: 17px 35em;
+    } */
+
+    #contacto {
+        padding: 8% 1%;
+    }
+
+    #reserva {
+       
+        left: 16em;
+    }
+
+    .imgSize {
+        margin: 0%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    .imgGal {
+        width: 14em;
+      
+    }
+    
+    #reserva {       
+        position: static;
+        margin: 2%;
+    }
+
+    #cardsTestimonios {
+        width: 12rem;
+    }
+
+    p {
+        text-align: justify;
+        padding: 0px;
+        font-size: 17px;
+    }
+
+    .bgContacto {
+      
+        height: 31em;
+    }
+
+    .imgSize {
+        width: 13em;
+        padding: 0%;
+        margin-bottom: 6px;
+        box-shadow: 1px 3px 4px rgba(10, 10, 10, 0.43);
+        margin: 0%;
+    }
+  
+
+    .imgGal {
+        width: 10em;
+    }
+
+    #cardsTestimonios {
+        width: 10rem;
+    }
+
+    p {
+        text-align: justify;
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    .bgContacto {
+        height: 30em;
+    }
+
+    .textContact {
+       
+        font-size: 36px !important;
+    }
+
+    #rooms div div {
+        display: block;
+        margin: 2em 1em;
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #rooms div {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    #cards {
+        width: 50%;
+    }
+
+    #rooms {
+        margin-left: 2em;
+        width: 80%;
+    }
+
+    #rooms div div {
+        display: block;
+        margin: 2em 1em;
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 991px){
+
+    .imgSize {
+        width: 22em;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    #cards {
+        width: 41%;
+        margin: 4em 1em;
+    }
+
+    #rooms div {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    #rooms div div {
+        
+        width: 100%;
+    }
+
+    .textContact {
+    
+        font-size: 33px !important;
+    }
+
+    .bgContacto {
+        height: 30em;
+    }
+
+    .imgSize {
+        width: 18em;
+        padding: 1%;
+        margin-bottom: 6px;
+        box-shadow: 1px 3px 4px rgba(5, 5, 5, 0.43);
+        margin: 10%;
+    } 
+}
+
+@media only screen and (max-width: 767px){
+
+    .imgSize {
+        width: 14em;
+    }
+    
+    #cards {
+        width: 50%;
+        margin: 4em 0em;
+    }
+
+    .lista-card {
+        width: 11em;
+    }
+
+    #rooms div div {
+        width: 82%;
+    }
+
+    #rooms div div {
+         margin: 0em 0em;
+    }
+
+    #rooms div {
+       
+        margin: 0em 0em;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    #contenedorReserva {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgSize {
+        width: 12em;
+        padding: 1%;
+        margin-bottom: 6px;
+        box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.43);
+        margin: 9%;
+    }
+
+    .textContact {
+        font-size: 28px !important;
+    }
+
+    .bgContacto {
+        height: 27em;
+    }
+
+    #cards {
+        width: 96%;
+        margin: 2em 1em;
+    }
+
+}
+
+@media only screen and (max-width: 412px){
+
+    .navbar-nav {
+        
+        padding-left: 15% !important;
+    }
+
+    #espacio{
+        margin-bottom: 22px;
+    }
+   
+
+    .bgContacto {
+        height: 24em;
+    }
+
+    
+    .tituloServicios{
+        margin: 5%;
+    }
+    
+    .imgServicios {
+       
+        margin-left: 7%;
+    } 
+
+    .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row !important
+       
+    }
+
+
+    .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 20px !important;}
+
+    
+    .tituloH1 {        
+    padding: 1em 0em;     
+    position: absolute;
+    top: 2em;
+    }    
+    
+    p { 
+    text-align: justify;
+    padding: 21px;
+    font-size: 18px; }
+
+    .imgSize {
+    width: 10em;
+    }
+
+    fieldset {    
+    padding: 0px 67px !important;       
+    }
+
+
+    .imgGal {
+    width: 23em;      
+    margin: 23px;}
+
+    /* #contenedorReserva {
+    display: flex; flex-direction: column;        
+    } */
+
+    #rooms{       
+    width: 77%;                  
+    }
+
+    #rooms div{
+    display: flex; 
+    flex-direction: column;
+    
+    margin: 1em 0em;
+    }
+
+    #rooms div div{
+    display: block;
+    margin: 0em 0em;
+    width: 100%;    
+    /*para cel sin margin ni width */          
+    }
+
+   
+
+    #cardRoom{
+        width: 100%;
+        margin: 0em 1em;
+        /* el width de 30% no va en cel */   
+        }
+
+    #reserva{
+    /* left: 0em; CEL */
+    left: 0em;      
+    bottom: 16em;
+    }
+
+    
+
+    #lista-Datos{
+        margin: 1px 15px;
+    }
+
+    .bgImageReserva {
+        
+        height: 426px;
+    }
+
+    #contacto {
+        width: 96%;
+        margin: 5% 2%;
+        padding: 9% 1%;
+    }
+
+    /* .logoFooter {
+        padding: 11px 10em;
+    } */
+
+    #testimoniosFlex{
+     flex-direction: column; 
+    }
+
+    #cardsTestimonios {
+        width: 22rem;
+        margin: 27px;
+    }
+
+    .footerText{         
+        padding-top: 7px;
+    }
+
+    #cards {
+        width: 90%;
+        margin: 2em 1em;
+    }
+
+    
+}
+
+@media only screen and (max-width: 360px){
+
+    
+
+    .navbar-nav {
+        padding: 0% 13%;
+    }
+
+    .tituloServicios{
+        margin: 5%;
+    }
+
+    .imgServicios {
+       
+        margin-left: 7%;
+    }
+
+    #reserva{
+        /* left: 0em; CEL */
+        left: 0em;      
+        bottom: 4em;
+    }
+
+    .navbar-nav .nav-link {
+        padding-right: 0;
+        padding-left: 15px !important;
+    }
+
+    .imgGal {
+        width: 20em;
+    }
+
+    .imgSize {
+    width: 10em; 
+    }
+
+    #contacto {      
+        margin: 6% 5%;      
+        padding: 3% 1%;
+    }
+ 
+
+    .bgContacto {
+        height: 23em;
+    }
+
+    #cardsTestimonios {
+        width: 20rem;
+    }
+
+
+    .footerText{         
+        padding-top: 0px;
+    }
+      
+    
+}
+
+@media only screen and (max-width: 320px){
+    .imgSize {
+        width: 9em;
+    }
+
+    #cardsTestimonios {
+        width: 17rem;
+    }
+
+    #cards {
+        width: 100%;
+        margin: 1em 0em;
+    }
+}

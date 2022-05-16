@@ -1,0 +1,409 @@
+/* menu */
+
+
+.menuEstilo{
+    background-color: #484616cf;
+  
+}
+
+
+.text-light:hover {
+/* color: #f2dfa5 !important; */
+    color: #fcd8ad !important;
+
+/* transform: scale(1.1); */
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(252, 244, 244, 0.9);
+}
+
+
+/*Generales*/
+body {
+    background-color: #e6e3e3 !important; 
+    scroll-behavior: smooth;
+}
+
+
+.tituloH1 { 
+
+    padding-top: 10%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: 'Roboto';
+    font-style: initial;  
+
+    color: white;
+    text-shadow: -4px -1px 4px #000000
+
+/* text-shadow: -2px 3px 2px #ab4405; */
+}
+
+.textContact {  
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: 'Roboto';  
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    color: white;
+}
+
+h2 {  
+    font-size: 44px !important;
+    font-weight: 300 !important;
+    font-family: 'Roboto';  
+    color: #2e4105;
+}
+
+h3{
+    font-weight: 400 !important;
+}
+
+
+
+h4 {  
+    font-weight: 400 !important;
+    color: #2e4105;
+}
+
+h6 {  
+    margin-bottom: 1.5rem !important;
+}
+
+
+p { 
+    text-align: justify;
+    padding: 26px;
+    font-size: 18px; 
+}
+
+.btn-room {
+    color: #2e4105 !important;
+    border: 1px solid #2e4105;  
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.btn-room:hover{
+    background-color: #4a4a24;
+    color: white !important;
+}
+
+.bgImage {
+    background-image: url(../image/fondoOscuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33em;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425); 
+}
+
+.bgImageReserva {
+    background-image: url(../image/backgroundFixedB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33em;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425); 
+}
+
+.bgContacto{
+    background-image: url(../image/backgroundFixedB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33em;
+
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425);
+}
+
+.bgColor {  
+    background-color: #3a390dd9;
+}
+
+.imgSize {
+
+    width: 15em;
+    margin-bottom: 6px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.425);
+}
+
+.paddingCero {
+    padding-right: 0px  !important;
+    padding-left: 0px  !important; 
+}
+
+
+
+.marginDiv {
+    margin-top: 50px !important; 
+}
+
+a {
+    text-decoration: none !important;
+    color: #e77e01 !important;
+}
+
+
+#backgroundFixed {
+    background-attachment: fixed;
+    background-image: url(../image/backgroundFixedA.jpg);
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.textContact {
+    color: white;
+    text-shadow: 2px 1px 2px #212529;
+    margin-top: 19px 0px; 
+    font-size: 40px !important;
+}
+
+fieldset {
+    min-width: 0 !important;
+    padding: 0px 74px !important;
+    margin: 30px 0px !important; 
+    border: 12 !important; 
+    background-color: #0000005e;
+}
+
+
+input {
+    width: 150px; 
+}
+
+.imgGal {
+    width: 17em;
+    margin: 3px;
+    box-shadow: 4px 4px 7px rgba(7, 7, 7, 0.49);
+}
+
+.containerFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.footerText {
+    margin: 0px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+        
+    padding-right: 0px;
+}
+
+.textLink {
+    padding: 3px 10px;
+    width: 8em;
+    transition: all 0.7s;
+}
+
+.textLink:hover{  
+    transform: scale(1.1);
+}
+
+.bgFooter {  
+    height: 132px;
+
+    background: rgb(58,57,13);
+    background: linear-gradient(131deg, rgba(58,57,13,0.7875525210084033) 0%, rgba(62,61,16,1) 58%, rgba(106,104,37,0.6194852941176471) 100%);
+
+    
+}
+
+#btnContinuarReserva{
+    color: #2e4105 !important;
+    border: 1px solid #2e4105;
+    padding: 7px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#btnContinuarReserva:hover{
+    background-color: #4a4a24;
+    color: white !important;
+}
+
+.btn {
+margin: 2px 25px;}
+
+.lista-card {
+    width: 16em;
+    display: inline-block;
+}
+
+/* esto por que en la card de reservas, los datos de la habitacion quedaban feos */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+    padding-left: 0 !important;
+
+}
+
+#contenedorReserva {
+    display: flex; flex-direction: row;
+
+}
+
+#rooms {
+    margin-left: 2em;
+    width: 70%;
+}
+
+.imgRoom{
+    width: 100%;
+}
+
+#rooms div{
+    display: flex; 
+    flex-direction: row;
+    margin: 2em 2em;
+}
+
+#rooms div div{
+    display: block;
+    margin: 2em 1em;
+    width: 43%;    
+}
+
+#cards{
+    width: 30%;
+    margin: 4em 2em;
+}
+
+.col-xl-1 {
+    flex: 0 0 auto;
+    width: 16.333333% !important;
+}
+
+
+
+#reserva{
+    padding: 2em !important;
+    position: absolute;
+    bottom: 5em;
+  
+    left: 20em;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.43);
+    background-color: rgb(215, 212, 212);
+}
+
+header{
+    position: relative;
+}
+
+#formularioReserva{
+    display: none;
+
+    background-color: white; 
+    margin-bottom: 42px; 
+    border-radius: 10px; 
+    box-shadow: 0px 7px 9px rgba(10, 10, 10, 0.43);
+}
+
+
+.animacion {
+animation-name: cardAnimacion;
+animation-iteration-count:2;
+animation-timing-function: linear;
+animation-duration: 2s;
+animation-delay: 2s;}
+
+/*ANIMACION DE H2*/
+@keyframes cardAnimacion {
+0% {border-color: #e77e01; }
+20% {border-color: #e77e01;}
+40% {border-color: whitesmoke; }
+60% {border-color: #e77e01; }
+80% {border-color: #e77e01; }
+100% {border-color: whitesmoke; } }
+
+#servicios{
+    display: none;
+
+}
+
+#testimonios {
+    display: none;
+    margin-bottom: 72px;
+}
+
+
+#contacto {
+    width: 54%;
+    margin: 0% 17%;
+    padding: 7% 1%;
+} 
+
+#iconWats {
+    width: 3em; margin: 4px; 
+    transition: all 0.7s;
+}
+
+#iconWats:hover {
+    transform: scale(1.2);
+}
+
+
+#testimoniosFlex{
+    display: flex; flex-direction: row; justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+
+#galeria{
+    display: none; ;
+}
+
+
+.galeriaContainer {
+    margin-top: 10px;
+}
+
+.logo{
+    margin: 0px 9px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.logo:hover{  
+    transform: scale(1.1);
+}
+
+.logoFooter{
+
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.logoFooter:hover{  
+    transform: scale(1.1);
+}
+
+.imgServicios{
+    width: 4em  ;
+}
+
+.textServicios{
+    padding-right: 0px;  
+    padding-top: 4px;
+}
+
+#cardsTestimonios {
+    width: 15rem; 
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.23);
+    margin: 5px;
+}
+
+@import "responsive";
+
