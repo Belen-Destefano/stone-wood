@@ -84,7 +84,7 @@ p {
   background-image: url(../image/backgroundFixedB.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 33em;
+  height: 34em;
   box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.425); }
 
 .bgColor {
@@ -218,7 +218,7 @@ input {
   padding: 2em !important;
   position: absolute;
   bottom: 10em;
-  left: 26em;
+  left: 21em;
   box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.43);
   background-color: #d7d4d4; }
 
@@ -315,7 +315,7 @@ header {
 
 @media only screen and (max-width: 1927px) and (min-width: 1800px) {
   #reserva {
-    bottom: 21em;
+    bottom: 26em;
     left: 38em; } }
 
 @media only screen and (max-width: 1200px) {
