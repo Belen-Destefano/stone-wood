@@ -1,3 +1,12 @@
+@media only screen and (max-width: 1927px) and (min-width: 1800px){
+    #reserva{
+        bottom: 21em;
+        left: 38em;
+    }
+}
+
+
+
 @media only screen and (max-width: 1200px){
     /* .logoFooter {
         padding: 17px 35em;
@@ -266,6 +275,10 @@
 
 @media only screen and (max-width: 412px){
 
+    .bgImage {
+        height: 28em;
+    }
+
     .h2cuartos{
         font-size: 28px !important;
         margin: 7px 0px;
@@ -418,6 +431,10 @@
 }
 
 @media only screen and (max-width: 360px){
+
+    .bgImage {
+        height: 30em;
+    }
 
     .h2cuartos {
         font-size: 27px !important;
